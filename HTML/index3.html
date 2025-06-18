@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form tags</h1>
+    <form action="server.jsp" method="post">
+        <p>
+            <input type="text" required  placeholder="Enter Name" maxlength="5" size="40px" autofocus/>
+        </p>
+        <p>
+            <input type="text" value="abhi" readonly disabled  />
+        </p>
+        <button>Submit</button>
+        <input type="Submit" value="submit" />
+        <!-- <input type="image" src="Screenshot 2025-02-14 094859.png" alt="Submit" /> -->
+        <input type="reset" value="Reset" />
+    </form>
+    <fieldset>
+        <legend>Login Form</legend>
+        <form action="#">
+            <p><input type="text" placeholder="Enter name"/></p>
+            <p><input type="email" placeholder="Enter mail"/></p>
+            <p><input type="password" placeholder="Enter password"/></p>
+            <p><input type="date"/></p>
+            <p>
+                <input type="checkbox" /> java
+                <input type="checkbox" /> python
+                <input type="checkbox" /> C++
+            </p>
+            <p>
+                <input type="radio" name="batch">Morning batch
+                <input type="radio" name="batch">Evening batch
+            </p>
+            <p>
+                <select multiple>
+                    <optgroup label="INDIA">
+                        <option>Amaravathi</option>
+                        <option>Hyderabad</option>
+                        <option>Chennai</option>
+                        <option>Delhi</option>
+                    </optgroup>
+                    <optgroup label="USA">
+                        <option>Colombus</option>
+                        <option>Miami</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p><textarea rows="5" cols="100" placeholder="About me"></textarea></p>
+            <p>
+                <input type="number" placeholder="Enter your number">
+            </p>
+            <p>
+                <input type="file">
+            </p>
+            <p>
+                <input type="color">
+            </p>
+            <label for="chk">
+                Remember Me <input type="checkbox" id="chk">
+            </label> 
+            <p>
+                <input list="country">
+                <datalist id="country">
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>GERMANY</option>
+
+                </datalist>
+            </p>
+
+            <button>Login</button>
+        </form>
+    </fieldset>
+</body>
+</html>
