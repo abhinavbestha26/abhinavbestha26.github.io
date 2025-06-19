@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* li{
+            display: inline ;
+            width: 20px;
+        } */
+         li{
+            display: inline-block;
+            width: 90px;
+         }
+         .flex{
+            display: flex;
+            justify-content: space-around;
+            background-color: aqua;
+            height: 300px;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            border: 2px solid black;
+         }
+         .grid{
+            background-color: bisque;
+            display: grid;
+            grid-template-columns: auto auto auto  auto;
+            column-gap: 20px;
+            row-gap: 100px;
+            justify-content: space-around;
+            align-items: center;
+            
+         }
+    </style>
+</head>
+<body>
+    <h1>CSS display property</h1>
+    <h2>inline vs inline-block</h2>
+    <li>Home</li>
+    <li>Services</li>
+    <li>Projects</li>
+    <li>about</li>
+    <hr>
+    <h2>Flexbox</h2>
+    <div class="flex">
+        <div>child1111111111111</div>
+        <div>child2222222222222</div>
+        <div>child3333333333333</div>
+        <div>child4444444444444</div>
+        <div>child5555555555555</div>
+        <div>child6666666666666</div>
+        
+    </div>
+    <hr>
+    <div class="grid">
+        <div>child1111111111111</div>
+        <div>child2222222222222</div>
+        <div>child3333333333333</div>
+        <div>child4444444444444</div>
+        <div>child5555555555555</div>
+        <div>child6666666666666</div>
+    </div>
+</body>
+</html>
