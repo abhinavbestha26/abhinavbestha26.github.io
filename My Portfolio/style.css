@@ -1,0 +1,125 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body{
+  background-color: aliceblue;
+}
+header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: rgba(11, 234, 185, 0.607);
+  padding: 15px;
+  
+}
+.links ul{
+  display: flex;
+  gap: 20px;
+
+}
+
+.links ul li{
+  list-style-type: none;
+
+}
+.links ul li a{
+  text-decoration: none;
+  font-size: large;
+  color: blueviolet;
+}
+a{
+  text-decoration: none;
+}
+.Home{
+  display: flex;
+  justify-content:space-around;
+  height: 50vh;
+  align-items: center;
+}
+.profilepic{
+  height: 300px;
+  width: 300px;
+  border-radius: 70%;
+}
+.home-left{
+  /* display: flex; */
+  max-width: 600px;
+  /* background-color: aqua; */
+  
+}
+.home-right{
+
+}
+
+.Services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services-boxs {
+  display: flex;
+  gap: 40px;
+}
+.services-boxs .services-box {
+  max-width: 250px;
+  border: 1px solid black;
+  padding: 15px;
+}
+.Services h1{
+  margin: 20px;
+}
+.Projects{
+  /* display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 100px;
+  
+}
+.Projects .project-box{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+}
+.Projects .project-box .box{
+  /* height: 250px; */
+  width: 250px;
+  border: 1px solid black;
+  padding: 20px;
+  
+}
+.Projects h1{
+  text-align: center;
+  padding: 30px;
+}
+.skills img {
+  margin: 10px;
+  transition: transform 0.3s;
+}
+.skills img:hover {
+  transform: scale(1.2);
+}
+.About{
+  display: flex;
+  margin: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.maincon{
+  display: flex;
+  margin: 50px;
+  /* justify-content: center; */
+  text-align: center;
+  justify-content: space-around;
+}
+.Contact h1{
+  text-align: center;
+}
+.mainco .contact-right{
+  display: flex;
+  width: 300px;
+}
