@@ -1,0 +1,23 @@
+.products{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.products .product1{
+    /* display: flex; */
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+.products .product2{
+    /* display: flex; */
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+.products .product3{
+    /* display: flex; */
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
