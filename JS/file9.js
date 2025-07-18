@@ -37,6 +37,12 @@
 
 
 const score = [1,2,3,4,5,6];
+const score1 = [
+    {id:1, name:"santoor", price:32},
+]
+score1.map(v => {
+    console.log(v.id)
+})
 // score.forEach((a,b,c) => {
 //     console.log(c)-10
 // });

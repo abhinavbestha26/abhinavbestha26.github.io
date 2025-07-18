@@ -8,10 +8,13 @@ body{
 }
 header{
   display: flex;
-  justify-content:space-between;
+  /* justify-content:space-between; */
   align-items: center;
   background-color: rgba(11, 234, 185, 0.607);
-  padding: 15px;
+  padding: 20px;
+  position:fixed;
+  /* position: relative; */
+  gap: 950px;
   
 }
 .links ul{
@@ -35,7 +38,7 @@ a{
 .Home{
   display: flex;
   justify-content:space-around;
-  height: 50vh;
+  height: 100vh;
   align-items: center;
 }
 .profilepic{
@@ -46,8 +49,33 @@ a{
 .home-left{
   /* display: flex; */
   max-width: 600px;
-  /* background-color: aqua; */
-  
+  background-color: pink;
+  padding:15px;
+  margin: 10px;
+  border: greenyellow 2px solid;
+  text-wrap:wrap ;
+}
+.home-button button {
+  color: blanchedalmond;
+  margin-top: 15px;
+  padding: 6px;
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.home-button button:hover {
+  background-color: beige;
+  color: white;
+  transform: scale(1.05);
+}
+
+.heads{
+  display: flex;
+  color: aqua;
+  margin-bottom: 15px;
 }
 .home-right{
 
@@ -57,6 +85,8 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
+  padding: 50px;
 }
 .services-boxs {
   display: flex;
@@ -76,6 +106,7 @@ a{
   /* align-items: center; */
   justify-content: center;
   margin-top: 100px;
+  height: 100hv;
   
 }
 .Projects .project-box{
@@ -104,9 +135,11 @@ a{
 }
 .About{
   display: flex;
-  margin: 50px;
+  margin: 150px;
   justify-content: center;
   text-align: center;
+  height: 50vh;
+  
 }
 
 .maincon{
@@ -115,6 +148,9 @@ a{
   /* justify-content: center; */
   text-align: center;
   justify-content: space-around;
+}
+.Contact{
+  height: 30hv;
 }
 .Contact h1{
   text-align: center;

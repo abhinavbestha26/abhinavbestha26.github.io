@@ -8,8 +8,8 @@ const products = [
 function addToCart(id) {
   cart = { ...cart, [id]: 1 };
 }
-function increment(id) {
-  cart = { ...cart, [id]: cart[id] + 1 };
+function increment(y) {
+  cart = { ...cart, [y]: cart[y] + 1 };
 }
 function decrement(id) {
   cart = { ...cart, [id]: cart[id] - 1 };

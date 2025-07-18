@@ -23,12 +23,12 @@
 // }
 // console.log(sum)
 
-let marks = {
-    "John": 85,
-    "Emma": 90,
-    "Tom": 78,
-    "mahank":99
-}
+// let marks = {
+//     "John": 85,
+//     "Emma": 90,
+//     "Tom": 78,
+//     "mahank":99
+// }
 // for( let i=0;i<Object.keys(marks).length;i++){
 //     console.log("the marks of  "+Object.keys(marks)[i]+" are "+marks[Object.keys(marks)[i]])
 // }
@@ -58,14 +58,20 @@ let marks = {
 // console.log(b)
 
 
-const cart = [
-  { name: 'Shirt', price: 500 },
-  { name: 'Shoes', price: 1500 },
-  { name: 'Cap', price: 200 }
-];
+// const cart = [
+//   { name: 'Shirt', price: 500 },
+//   { name: 'Shoes', price: 1500 },
+//   { name: 'Cap', price: 200 }
+// ];
 
-const totalPrice = cart.reduce((acc, item) => acc + item.price, 0);
+// const totalPrice = cart.reduce((acc, item) => acc + item.price, 0);
 
-console.log(totalPrice); // 2200
+// console.log(totalPrice); // 2200
 
 
+
+
+// console.log(window.document)
+
+// let a = document.getElementById("headding");
+// console.dir(a)

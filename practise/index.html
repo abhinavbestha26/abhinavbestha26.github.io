@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Company Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 200px;
+      background-color: #1565c0;
+      color: white;
+      height: 100vh;
+      padding-top: 20px;
+      position: fixed;
+    }
+    button{
+      /* display: flex; */
+      background-color:azure;
+      color: red;
+      padding: 5px;
+      border-radius: 15%;
+    }
+
+    .sidebar h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .sidebar a {
+      display: block;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      background-color: #0d47a1;
+    }
+
+    /* Main content */
+    .main {
+      margin-left: 200px;
+      flex: 1;
+    }
+
+    /* Header */
+    header {
+      background-color: #f4511e;
+      padding: 15px 20px;
+      color: white;
+    }
+
+    .topnav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .topnav .menu a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .topnav .menu a:hover {
+      text-decoration: underline;
+    }
+
+    /* Content cards */
+    .content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #e0f2f1;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <nav class="sidebar">
+    <h2>Company</h2>
+    <a href="#">Dashboard</a>
+    <a href="#">Revenue</a>
+    <a href="#">Sales</a>
+    <a href="#">Customers</a>
+    <a href="#">Reports</a>
+    <a href="#">Meetings</a>
+    <a href="#">Events</a>
+    <a href="#">Settings</a>
+    
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main">
+    
+    <!-- Header with nav bar -->
+    <header class="headerclass" id="headerid" style="color: transparent;" href="/">
+      <div class="topnav">
+        <div class="title">Company</div>
+        <div class="menu">
+          <a href="#">Revenue</a>
+          <a href="#">Sales</a>
+          <a href="#">Customers</a>
+          <a href="#">Reports</a>
+          <a href="#">Settings</a>
+          <!-- <div class="dark-theme" onclick=darktheme() ondblclick=lighttheme()>
+      <button>DARKTHEME</button>  
+    </div> -->
+          <div id="add-border" ><button>add-border</button></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Cards Section -->
+    <div class="content">
+      <div class="card" >
+        <h3>Revenue</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="card" onmouseover="over(this)" onmouseout="noover(this)" >
+        <h3>Sales</h3>
+        <p>Ut euismod efficitur turpis, non tincidunt nibh volutpat sed.</p>
+      </div>
+      <div class="card">
+        <h3>Customers</h3>
+        <p>Suspendisse semper ipsum eget neque malesuada auctor.</p>
+      </div>
+      <div class="card">
+        <h3>Reports</h3>
+        <p>Morbi id feugiat mauris, at tempus mi.</p>
+      </div>
+      <div class="card">
+        <h3>Meetings</h3>
+        <p>Nulla facilisi. Vestibulum vitae eros nec lectus posuere ultricies.</p>
+      </div>
+      <div class="card">
+        <h3>Events</h3>
+        <p>Quisque eu massa a mauris ultricies dapibus non vitae nulla.</p>
+      </div>
+    </div>
+  </div>
+<script src="1.js"></script>
+</body>
+</html>
